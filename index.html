@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xep hang hoc vien</title>
+</head>
+<body>
+<script>
+    function check() {
+        let i = parseFloat(prompt("nhap diem:"));
+        if (i >= 75) {
+            alert("loai A");
+        }
+        if (i >= 60 && i < 75) {
+            alert("loai B");
+        }
+        if (i >= 45 && i < 60) {
+            alert("loai C");
+        }
+        if (i >= 35 && i < 45) {
+            alert("loai D");
+        }
+        if (i < 35) {
+            alert("loai E");
+        }
+    }
+
+    check()
+</script>
+</body>
+</html>
